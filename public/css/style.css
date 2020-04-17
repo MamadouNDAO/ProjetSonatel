@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #042425;
+    height: 100px;
+}
+.logo{
+    background-image: url(../images/logo-QuizzSA.png);
+    background-size: 50px;
+    height: 80px;
+    width: 10%;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+.content{
+    background-image: url(../images/img-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.header-text{
+    color: white;
+    position: absolute;
+    left: 36%;
+    top: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: relative;
+    top: 20%;
+    left: 32%;
+    width: 40%;
+    height: 65%;
+    background-color: white;
+    border-radius: 4px;
+}
+.container-header{
+    height: 95px;
+    background-color:#51bfd0;
+    border-radius: 4px 4px 0px 0px;
+    
+}
+.title{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+.input-form{
+    height: 60px;
+    margin: 10px 35px;
+}
+.form-control{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-top: 15px;
+    padding: 5px;
+}
+.error-form{
+    color: red;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 10px;
+    position: relative;
+    font-size: 16px;
+    color: silver;
+}
+.icone-form{
+    background-image: url(../images/ic-login.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 97%;
+    top: 45px;
+}
+.btn-form{
+    margin-top: 50px;
+    color: white;
+    border-radius: 5px;
+    background-color: #51bfd0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 1px #51bfd0;
+}
+.link-form{
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(117, 115, 115);
+    text-decoration: none;
+}
