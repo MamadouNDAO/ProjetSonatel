@@ -15,6 +15,7 @@ body{
     margin-left: 30px;
 }
 .content{
+    position: relative;
     background-image: url(../images/img-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,3 +104,116 @@ body{
     color: rgb(117, 115, 115);
     text-decoration: none;
 }
+
+/**DEBUT CSS PAGE ADMIN**/
+.grand-cadre{
+    position: relative;
+    width: 95%;
+    height: 97%;
+    background-color:rgb(234, 235, 236);
+    top: 2%;
+    left: 2.5%;
+    border-radius: 5px;
+}
+.header-grand-cadre{
+    width: 100%;
+    height: 13%;
+    background-color: #51bfd0;
+    border-radius: 5px 5px 0px 0px;
+}
+.titre-header{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 17px;
+}
+.admin-deconnexion{
+    position: relative;
+    background-color: #3addd6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #3addd6;
+    font-size: 18px;
+    left: 88%;
+    bottom: 20%;
+    font-family: Helvetica;
+    border-style: double;
+    cursor: pointer;
+}
+.cadre-option{
+    position: relative;
+    width: 30%;
+    height: 65%;
+    background-color: white;
+    left: 2%;
+    top: 10%;
+    border-radius: 5px;
+}
+.inscrire-admin{
+    position: absolute;
+    width: 65%;
+    height: 75%;
+    background-color: white;
+    left: 33%;
+    margin-top: -370px;
+    border-radius: 5px;
+    border: solid 1px silver;
+}
+.header-cadre-option{
+    background: linear-gradient(0deg, #51bfd0, white);
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 45%;
+}
+.list-qst{
+    position: relative;
+    width: 92%;
+    
+    padding: 10px;
+    color: #818181;
+    font-size: 25px;
+    font-family: Myriad Pro;
+    top: 10px;
+    
+}
+.list-qst:hover{
+    background-color: rgb(234, 235, 236);
+    border-left: solid 5px green;
+}
+
+.icone-admin{
+    background-image: url(../images/ic-ajout.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 90%;
+    bottom: 20px;
+}
+#ic1{
+    position: relative;
+    left: 50%;
+}
+#ic2{
+    position: relative;
+    left: 57%;
+}
+#ic3{
+    position: relative;
+    left: 57%;
+}
+#ic4{
+    position: relative;
+    left: 48.5%;
+}
+.photo img{
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+  }

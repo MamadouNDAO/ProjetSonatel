@@ -2,7 +2,7 @@
 if(isset($_POST['btn_submit'])){
     $login=$_POST['login'];
     $pwd=$_POST['pwd'];
-    $result=connexion($login,$pwd);
+    $result= connexion($login,$pwd);
     if($result=="error"){
             echo "Login ou Mot de passe Incorrect";
         
@@ -26,7 +26,7 @@ if(isset($_POST['btn_submit'])){
                 <input type="text" class="form-control" name="" placeholder="Login">
                 <div class="error-form">
                     
-                    </div>
+                </div>
             </div>
             <div class="input-form">
                 <div class="icone-form icone-form-login"></div>
