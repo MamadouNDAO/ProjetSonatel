@@ -156,10 +156,10 @@ body{
 .inscrire-admin{
     position: absolute;
     width: 65%;
-    height: 75%;
+    height: 83%;
     background-color: white;
     left: 33%;
-    margin-top: -370px;
+    margin-top: -390px;
     border-radius: 5px;
     border: solid 1px silver;
 }
@@ -211,9 +211,103 @@ body{
     left: 48.5%;
 }
 .photo img{
-    width : 150px; height : 150px;
+    position: relative;
+    width : 120px; height : 120px;
     border: none;
     -moz-border-radius : 75px;
     -webkit-border-radius : 75px;
     border-radius : 75px;
+    border: solid 2px slategrey;
+    padding: 10px;
+    left: 25px;
+    top: 25px;
   }
+.tete-inscrire{
+    position: relative;
+    left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tete-inscrire h5{
+    position: relative;
+    bottom: 15px;
+    color: rgb(141, 136, 136);
+} 
+.container-form{
+    position: relative;
+    border-top: silver solid 1px;
+    width: 60%;
+    top: -30px;
+}
+.prenom{
+    width: 350px;
+    margin: 10px 35px;
+    
+    color: rgb(141, 136, 136);
+}
+.tom{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin-top: 6px;
+    padding: 5px;
+}
+.choix-avatar{
+    width: 350px;
+    margin: 10px 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#avatar-bi{
+    position: relative;
+    left: 40%;
+    background: #51bfd0;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    border: white solid 1px;
+}
+.make-compte{
+    margin: 15px 120px;
+}
+#btn-make{
+    position: relative;
+    background: #51bfd0;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    border: white solid 1px;
+}
+#msgErreur{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#NameUser{
+    position: relative;
+   
+    width: 30%;
+   
+    left: 55%;
+    top: -80px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+#Ad_erreur{
+    color: red;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+.mak{
+    position: relative;
+    background-color: white;
+    
+}

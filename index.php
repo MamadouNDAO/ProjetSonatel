@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="./public/css/style.css">
-    <script src="./public/js/jquery-3.5.0.js"></script>
-    <script src="./public/js/script.js"></script>
+  
+   
+    
 </head>
 <body>
     <div class="header">
@@ -15,6 +16,7 @@
     </div>
     <div class="content">
     <?php
+        session_start();
         require_once("./traitement/fonctions.php");
         if(isset($_GET['lien'])){
            if($_GET['lien']=="acceuil"){
@@ -24,8 +26,15 @@
            }
         }else{
             require_once("./pages/connexion.php");
+            
         }
         
+        if(isset($_GET['lien']) && $_GET['lien']=="suscribe"){
+            
+                require_once("./pages/suscribe.php");
+            
+        }
+            
     ?>
     </div>
 
